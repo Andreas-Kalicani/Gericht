@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Gericht Restaurant Website 
+Restaurant landing pages using UX/UI design principles to design website. 
 
 ## Available Scripts
 
