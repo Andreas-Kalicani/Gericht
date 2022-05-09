@@ -1,0 +1,132 @@
+.app__findus-section-container{
+    width: 100%; 
+    height: 100vh; 
+    background-image: url("../../assets/bg.png");
+    display:flex;
+    flex-direction: row;
+
+}
+
+.app__findus-text-container{
+    width: 50%; 
+    height: 100vh;
+    display:flex; 
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10%;
+}
+
+.app__findus-text-paragraph{
+    color: var(--color-white); 
+    font-family: var(--font-base);
+    font-size: 37px; 
+
+}
+
+.app__findus-image-spoon{
+    width: 5%;
+    margin-bottom: 2%;
+}
+
+.app__findus-title{
+    color: var(--color-golden); 
+    font-family: var(--font-base); 
+    font-size: 57px;
+    margin-bottom: 10%;
+}
+
+.app__findus-subtext-paragraph{
+    color: var(--color-white); 
+    margin-bottom: 10%;
+}
+
+.app__findus-openingtext-title{
+    color: var(--color-golden); 
+    font-family: var(--font-base); 
+    font-size: 27px;
+    margin-bottom: 5%;
+
+}
+
+.app__findus-week-paragraph{
+    color: var(--color-white);
+    margin-bottom: 16px;
+}
+
+.app__findus-weekend-paragraph{
+    color: var(--color-white);
+}
+
+.app__findus-button{
+    border: none;
+    background-color: var(--color-golden); 
+    color: var(--color-black); 
+    font-family: var(--font-base); 
+    font-weight: 700;
+    font-size: 16px;
+    width: 30%;
+    height: 6vh;
+    border-radius: 2px; 
+    margin-top: 64px;
+    cursor: pointer;
+
+}
+
+.app__findus-image-container{
+    width: 50%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.app__findus-image-wrapper{
+    width: 85%;
+    height: 87vh;
+}
+
+.app__findus-image-findus{
+    width: 100%;
+}
+
+
+/*Responsiveness section */ 
+
+@media screen and (max-width: 1150px){
+    .app__findus-section-container{
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        height: 170vh;
+        
+        
+    }
+
+    .app__findus-image-findus{
+        height: 60vh;
+        width: 100%;
+    }
+
+    .app__findus-button-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .app__findus-button{
+        width: 100%;
+        margin-bottom: 20%;
+    }
+
+    .app__findus-image-wrapper{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 650px){
+    .app__findus-text-container{
+        margin-top: 15%;
+    }
+
+}

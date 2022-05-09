@@ -1,0 +1,256 @@
+.app__newsletter-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../assets/bg.png")
+}
+
+.app__newsletter-container{
+    width: 100%; 
+    height: 45vh;
+    display: flex; 
+    justify-content: center;
+   
+
+}
+
+.app__newsletter-spoon{
+    width: 5%;
+    margin-bottom: 3%;
+   
+}
+
+.app__newsletter-wrapper{
+   
+    width: 70%;
+    height: 45vh;
+    background-color: var(--color-black);
+    display: flex; 
+    align-items: center; 
+    flex-direction: column; 
+
+
+}
+
+.app__newsletter-paragraph{
+    color: var(--color-white);
+    font-family: var(--font-base);
+    font-size: 27px;
+    margin-top: 2%;
+   
+}
+
+.app__newsletter-title{
+    color: var(--color-golden); 
+    font-family: var(--font-base);
+    font-size: 47px;
+    
+    
+}
+
+.app_newsletter-sub-paragraph{
+    color: var(--color-white); 
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.app__newsletter-input{
+    height: 6vh;
+    width: 500px;
+    color: var(--color-white); 
+    border: 1px solid var(--color-golden); 
+    background-color: var(--color-black); 
+    font-family: var(--font-base); 
+    margin-right: 2%; 
+    border-radius: 2px; 
+    font-size: 20px;
+}
+
+.app__newsletter-form{
+    display:flex; 
+    width: 100%;
+    justify-content: center;
+    height: 20vh;  
+    padding-left: 10%;
+    
+}
+
+.app__newsletter-button{
+    height: 5vh;
+    width: 15%;
+    border-radius: 2px;
+    border: none; 
+    background-color: var(--color-golden);
+    font-family: var(--font-base); 
+    font-size: 20px; 
+    font-weight: 700; 
+    margin-top: 0.5%; 
+    cursor: pointer;
+}
+
+.app__newsletter-footer-container{
+    height: 55vh; 
+    display: flex; 
+    align-items: center; 
+    flex-direction: column; 
+}
+
+.app__newsletter-footer-wrapper{
+    width: 100%; 
+    height: 30vh; 
+    display: flex; 
+    justify-content: center; 
+}
+
+.app__newsletter-box-contact{ 
+    width: 33%;
+    height: 30vh;
+    display: flex; 
+    align-items: center; 
+    flex-direction: column; 
+   
+}
+
+.app__newsletter-box-gericht{
+    width: 33%;
+    height: 30vh; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+     
+    
+}
+
+.app__newsletter-box-working{
+    width: 33%;
+    height: 30vh; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+  
+}
+
+.app__newsletter-contactus{
+    color: var(--color-white); 
+    font-family: var(--font-base); 
+    margin-top: 20px; 
+    margin-bottom: 10px;
+    font-size: 27px;
+    
+
+}
+
+.app__newsletter-address{
+    color: var(--color-grey); 
+    margin-bottom: 20px; 
+
+}
+
+.app__newsletter-phone1{
+    color: var(--color-grey); 
+}
+
+.app__newsletter-phone2{
+    color: var(--color-grey); 
+}
+
+.app__newsletter-gericht-header{
+    color: var(--color-golden); 
+    font-family: var(--font-base); 
+    margin-bottom: 20px;
+    font-size: 47px; 
+}
+
+.app__newsletter-quote{
+    color: var(--color-white); 
+    text-align: center;
+    width: 76%;
+}
+
+.app__newsletter-spoon-footer{
+    width: 5%;
+}
+
+.app__newsletter-working-title{
+    color: var(--color-golden);
+    font-family: var(--font-base); 
+    margin-top: 20px; 
+    margin-bottom: 10px; 
+    font-size: 27px;
+}
+
+.app__newsletter-week{
+    color: var(--color-grey);
+    margin-bottom: 5px;
+}
+
+.app__newsletter-weekhours{
+    color: var(--color-grey); 
+    margin-bottom: 10px; 
+    
+}
+
+.app__newsletter-weekend{
+    color: var(--color-grey); 
+    margin-bottom: 5px; 
+}
+
+.app__newsletter-weekendhours{
+    color: var(--color-grey); 
+}
+
+.app__newsletter-footer-reserved-container{
+    width:100%; 
+    height:20vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.app__newsletter-footer-reserved-text{
+    color: var(--color-grey); 
+
+}
+
+/* Responsiveness Section  */
+
+@media screen and (max-width: 650px){
+    .app__newsletter-wrapper{
+        width: 100%;
+    }
+    .app__newsletter-input{
+        width: 70%; 
+    }
+
+    .app__newsletter-title{
+        text-align: center; 
+    }
+    
+    .app__newsletter-section{
+        height: 150vh;
+    }
+   
+    .app__newsletter-box-contact{
+        width: 100%;
+    }
+
+    .app__newsletter-box-gericht{
+        width: 100%; 
+    }
+
+    .app__newsletter-box-working{
+        width: 100%; 
+    }
+
+    .app__newsletter-footer-wrapper{
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        height: 150vh; 
+        flex-direction: column; 
+
+    }
+
+    .app__newsletter-button{
+        width: 20%;
+    }
+}

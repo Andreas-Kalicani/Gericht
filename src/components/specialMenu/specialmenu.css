@@ -1,0 +1,162 @@
+.app__specialMenu-container{
+    max-width:100%; 
+    height: 110vh; 
+    background: var(--color-black); 
+}
+
+.app__specialMenu-wineBeers{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.app__specialMenu-menu-wrapper{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 90vh; 
+    width: 100%;
+
+}
+
+.app__specialMenu-title-wrapper {
+    height: 20%;
+    display: flex; 
+    justify-content: center; 
+    flex-direction: column; 
+    align-items: center;
+    
+}
+
+
+.app__specialMenu-sub {
+    font-family: var(--font-base); 
+    color: var(--color-white); 
+    margin: 10px;  
+}
+
+.app__specialMenu-title {
+    font-family: var(--font-base); 
+    color: var(--color-golden); 
+    font-size: 57px; 
+}
+
+.app__specialMenu-menu-wrapper{
+    height: 80vh; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__specialMenu-wineBeer-list-name {
+    font-family: var(--font-base); 
+    color: var(--color-white); 
+    font-size:37px; 
+    margin: 20px 0; 
+
+    
+}
+
+.app__specialMenu-cocktails-list-name{
+    font-family: var(--font-base); 
+    color: var(--color-white); 
+    font-size:37px; 
+    margin: 10px 0; 
+}
+
+.app__specialMenu-cocktails{
+    display: flex; 
+    flex-direction: column; 
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+   
+     
+}
+
+.app__specialMenu-list-wine{
+    color: var(--color-golden); 
+    font-family: var(--font-base); 
+
+}
+
+.app__specialMenu-list-cocktail{
+    color: var(--color-golden); 
+    font-family: var(--font-base); 
+}
+
+.app__specialMenu-image-container{
+    width: 30%; 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 50px;
+}
+
+.app__specialMenu-image_menu{
+    width: 100%;
+    height: 100%;
+
+}
+
+.app__specialMenu-button-container{
+    width:100%; 
+    display: flex; 
+    justify-content: center; 
+   
+}
+
+.custom__button{
+    margin: 10px;
+}
+
+/* Creating responsiveness to specialMenu */
+
+@media screen and (max-width: 2000px){
+ 
+}
+
+@media screen and (max-width: 1150px) {
+ .app__specialMenu-menu-wrapper{
+     flex-direction: column;
+     align-items: center; 
+     width: 100%; 
+     height: 210vh;
+     
+ }
+ .app__specialMenu-container{
+     height: 300vh;
+     width: 100%;
+ }
+    .app__specialMenu-cocktails{
+        width: 50%; 
+        justify-content: center;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+}
+
+@media screen and (max-width: 650px){
+    .app__specialMenu-image_menu{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .app__specialMenu-cocktails{
+        width: 55%; 
+    }
+
+    .custom__button{
+        margin-top: 30%;
+    }
+    
+}
+
+.app__specialMenu-title{
+    font-size: 35px; 
+}

@@ -1,0 +1,38 @@
+.app__menuItem-price{
+    color: var(--color-white); 
+}
+
+.app__specialMenu-wineBeer-title{
+    color: var(--color-golden); 
+    font-size:20px; 
+    margin: 20px 0; 
+    
+}
+
+.app__menuItem-dash{
+    border: 1px solid white; 
+    margin: 0 0.5rem; 
+    width: 90px; 
+    height: 1px; 
+}
+
+.app_menuItem-main-container {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+   
+    width: 100%;
+    flex-wrap: wrap; 
+    width: 90%;
+    
+}
+
+
+
+.app__menuItem-tags-container{
+    margin-top: 0.0rem; 
+    
+    flex-direction: row; 
+    display: flex;
+}

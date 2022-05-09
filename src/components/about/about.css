@@ -1,0 +1,181 @@
+.app__about-container{
+  background-image: url('../../assets/bg.png');
+  width: 100%;
+  height: 100vh;
+  display:flex; 
+  justify-content: center; 
+  align-items: center; 
+  position: relative;
+  z-index: 0; 
+}
+
+.app__about-wrapper{
+    
+    z-index: 5; 
+    width: 100%;
+    display: flex; 
+}
+.app__about-us-wrapper{
+  display:flex;
+  justify-content: center; 
+  flex-direction:  column;  
+  align-items: flex-end; 
+  padding: 0px 10px; 
+
+  
+}
+
+.app__about-image-spoon-in-about-us{
+    transform: rotateY(180deg);
+    width: 27px;
+}
+
+.app__about-us-wrapper p {
+    display: flex; 
+    justify-content: flex-end;
+    font-family: var(--font-alt);
+    color: var(--color-white);
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 28px;
+    font-size: 16px;
+    
+}
+
+.p__opensans-about{
+    text-align: right; 
+}
+
+
+
+
+.app__about-us-wrapper image{
+    display: flex; 
+    justify-content: flex-start;
+    
+    
+    
+}
+
+.app__About-title{
+    color: var(--color-golden); 
+    font-family: var(--font-base);
+    font-size: 37px;
+    
+}
+
+.app__About-history-title{
+    font-family: var(--font-base);
+    font-size: 37px; 
+}
+
+.app__about-image_G{
+    width: 20%;
+    height: 40vh;
+    z-index: 0; 
+    position:absolute;
+
+}
+
+
+
+.custom__button-about{
+      width: 20%;
+    margin: 20px 0;
+    background-color: var(--color-golden); 
+       color: var(--color-black);
+    font-family: var(--font-base);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.app__about-image_knife{
+    width: 10%;
+    height: 80vh;
+    margin: 20px;
+}
+
+.app_about-history-wrapper{
+    display: flex; 
+    justify-content: center;
+    flex-direction: column; 
+   
+}
+
+.app__About-history-title{
+    color: var(--color-golden);
+}
+
+.app__about-image-spoon{
+   width: 27px;
+   
+}
+
+@media screen and (max-width:2000px){
+ .custom__button-about{
+     width: 30%;
+ }
+
+}
+
+@media screen and (max-width:1150px){
+    .custom__button-about{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:900px){
+     .app__about-wrapper{
+         display: flex;
+         flex-direction: column; 
+         justify-content: center; 
+         align-items: center; 
+         width: 100%;
+         
+     }
+
+     .app__about-container{
+         width: 100%;
+         height: 180vh;
+     }
+
+      .app__about-us-wrapper{
+          margin: 0px 10px;
+            
+      }
+
+
+.app_about-history-wrapper {
+    margin: 0px 10px;
+}
+
+.custom__button-about{
+    width: 50%;
+}
+
+.app__about-image_G{
+    width: 50%
+}
+
+.app__about-image_knife{
+    width: 10%;
+}
+
+}
+
+@media screen and (max-width: 650px){
+    .app__about-container {
+        display: flex; 
+        flex-direction: column; 
+        flex-wrap: wrap;
+    }
+
+}

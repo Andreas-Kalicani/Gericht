@@ -1,0 +1,15 @@
+.app__video-container{
+    background-color: var(--color-black);    
+}
+
+.app__wrapper{
+    position: relative;
+    height: 100vh;
+}
+
+.app__video-video{
+   width: 100%; 
+   height: 100vh; 
+   object-fit: cover; 
+}
+
